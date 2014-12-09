@@ -33,8 +33,7 @@ namespace Gamp
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/bootstrap.css",
-                "~/Content/style.default.css",
-                "~/Content/site.css"));
+                "~/Content/style.default.css"));
 
             bundles.Add(new StyleBundle("~/Content/kendo/css").Include(
                 "~/Content/kendo/kendo.common-bootstrap.min.css",
