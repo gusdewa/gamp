@@ -26,10 +26,14 @@ namespace Gamp
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                 "~/Scripts/bootstrap.js",
+                "~/Scripts/pace.js",
+                "~/Scripts/retina.js",
+                "~/Scripts/custom.js",
                 "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/bootstrap.css",
+                "~/Content/style.default.css",
                 "~/Content/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/kendo/css").Include(
