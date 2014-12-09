@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4F38D8
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gamp.Service", "Gamp.Service\Gamp.Service.csproj", "{340E85F5-5196-4F26-8835-60A447C0FBE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{B3154EED-5B1D-48B3-9205-4E0AA9299E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3154EED-5B1D-48B3-9205-4E0AA9299E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3154EED-5B1D-48B3-9205-4E0AA9299E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340E85F5-5196-4F26-8835-60A447C0FBE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340E85F5-5196-4F26-8835-60A447C0FBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340E85F5-5196-4F26-8835-60A447C0FBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340E85F5-5196-4F26-8835-60A447C0FBE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
