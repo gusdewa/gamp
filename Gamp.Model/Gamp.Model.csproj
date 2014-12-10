@@ -40,8 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Business\Item\Good.cs" />
+    <Compile Include="Business\Item\InventoryTracking.cs" />
     <Compile Include="Business\Item\Item.cs" />
+    <Compile Include="Business\Item\Package.cs" />
     <Compile Include="Business\Item\SerializedGood.cs" />
+    <Compile Include="Business\Item\SerialNumber.cs" />
+    <Compile Include="Business\Item\ServiceGood.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

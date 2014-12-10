@@ -31,15 +31,15 @@
                             <i class="fa fa-bars"></i>
                         </a>
                     </div>
-                </div><!-- header-left -->
+                </div>
                 <div class="header-right">
                     <div class="pull-right">
                         @{
                             Html.RenderPartial("_AccountMenu");
                         }
-                    </div><!-- pull-right -->
-                </div><!-- header-right -->
-            </div><!-- headerwrapper -->
+                    </div>
+                </div>
+            </div>
         </header>
 
         <section>
@@ -48,8 +48,7 @@
                     @{
                         Html.RenderPartial("_LeftPanelMenu");
                     }
-                </div><!-- leftpanel -->
-
+                </div>
                 <div class="mainpanel">
                     <div class="pageheader">
                         <div class="media-body">
@@ -57,14 +56,12 @@
                                 Html.RenderPartial("_Breadcrumb");
                             }
                         </div>
-                        
-                    </div><!-- pageheader -->
-
+                    </div>
                     <div class="contentpanel">
                         @RenderBody()
-                    </div><!-- contentpanel -->
+                    </div>
                 </div>
-            </div><!-- mainwrapper -->
+            </div>
         </section>    
 
         <script src="~/Scripts/plugins.js"></script>
